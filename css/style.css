@@ -1,0 +1,43 @@
+*{
+    /* background-color: aquamarine; */
+    margin: 0%;
+    padding: 0%;
+    list-style: none;
+    text-decoration: none;
+    color: rgb(242, 179, 43);
+}
+
+
+#body{
+    background-position: center;
+    background-image: url(../images/Background.jpg);
+}
+
+
+
+#header {
+    height: 80px;
+    background-color: #e3e3e3;
+}
+
+#main-content{
+    border: 2px solid orangered;
+    height: 80vh;
+}
+.colorWords{
+    color: rgb(242, 179, 43);
+}
+
+
+.navbar-brand{
+    margin-left: 25px;
+    color: rgb(242, 179, 43);
+}
+.navbar-nav li a {
+    color: rgb(242, 179, 43);
+    margin-right: 25px;
+}
+#footer ul li a{
+
+    color: rgb(242, 179, 43);
+}
