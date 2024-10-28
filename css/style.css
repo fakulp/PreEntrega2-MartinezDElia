@@ -7,20 +7,17 @@
   color: rgb(242, 179, 43);
 }
 
-#body {
-  background-size: cover;
-  background-position: center;
-  background-image: url(../images/Background.jpg);
-}
-
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 231, 165, 21.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
+/*header*/
 #header .tittle .parragraph {
   display: flex;
   flex-wrap: wrap;
   height: 80px;
+}
+
+#body {
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/Background.jpg);
 }
 
 #main {
@@ -31,28 +28,14 @@
   gap: 5px;
 }
 
-.modalBackground {
-  background-color: rgba(0, 0, 0, 0.719);
+#footer ul li a {
+  color: rgb(242, 179, 43);
 }
 
+/*-------------*/
+/*index*/
 .card-new {
   margin-top: 10px;
-}
-
-.card-body-facciones {
-  height: 200px;
-  width: 200px;
-}
-
-.cardsFacciones:hover {
-  border: 2px solid orangered;
-  border-radius: 5%;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  box-shadow: 15px 15px rgba(0, 0, 0, 0.719);
-  transition: 1s;
-  background-color: rgba(0, 0, 0, 0.603);
 }
 
 .card-body-index:hover {
@@ -70,6 +53,12 @@
   color: rgb(231, 165, 21);
 }
 
+/*----------*/
+/*navbar*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 231, 165, 21.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
 .navbar-brand {
   margin-left: 25px;
   color: rgb(242, 179, 43);
@@ -80,8 +69,30 @@
   margin-right: 25px;
 }
 
-#footer ul li a {
-  color: rgb(242, 179, 43);
+/*--------------*/
+/*facciones*/
+.card-body-facciones {
+  height: 200px;
+  width: 200px;
 }
+
+.cardsFacciones:hover {
+  border: 2px solid orangered;
+  border-radius: 5%;
+  margin-top: 5px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+  box-shadow: 15px 15px rgba(0, 0, 0, 0.719);
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 0.603);
+}
+
+/*---------------*/
+/*contacto*/
+.modalBackground {
+  background-color: rgba(0, 0, 0, 0.719);
+}
+
+/*--------------*/
 
 /*# sourceMappingURL=style.css.map */
