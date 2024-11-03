@@ -1,22 +1,26 @@
 /*index*/
+@use "mixins";
 
-.card-new{
+
+.card-new:hover{
 margin-top: 10px; 
-}
 
 
 .card-body-index:hover{
     border: 2px solid orangered;
     border-radius: 5%;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    transform: translate(0px ,-10px);    
     box-shadow: 15px 15px rgba(0, 0, 0, 0.719);
     transition: 1s;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.836);
+                .card-title{
+                            color: rgb(231, 165, 21);
+                            }
+                }                   
 }
 
-.card-title{
-    color: rgb(231, 165, 21);
-}
+
+
+
+
 /*----------*/

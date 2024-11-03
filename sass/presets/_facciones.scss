@@ -1,18 +1,33 @@
 /*facciones*/
-.card-body-facciones{
-    height: 200px;
-    width: 200px;
-}
+
 
 .cardsFacciones:hover{
     border: 2px solid orangered;
     border-radius: 5%;
-    margin-top: 5px;
-    margin-bottom: 20px;
-    margin-right: 10px;
+    transform: translate(0px ,-10px);    
     box-shadow: 15px 15px rgba(0, 0, 0, 0.719);
     transition: 1s;
-    background-color: rgba(0, 0, 0, 0.603);
+    background-color: rgba(0, 0, 0, 0.836);
+}    
+
+
+.card-title{
+    color: rgb(231, 165, 21);
+    }
+
+@keyframes rotate{
+    0% {
+        transform: rotate(0deg);
+    }
+    100%{
+    transform: rotate(360deg);;
+    }
 }
 
+.heretics:hover{
+    animation: rotate;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+    animation-duration: 0.5s;
+}
 /*---------------*/
