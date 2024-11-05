@@ -5,14 +5,19 @@
     list-style: none;
     text-decoration: none;
     color: rgb(242, 179, 43);
+    font-family: "Cormorant Garamond", serif;
+    font-size: 18px;
 }
 
 /*header*/
 #header .tittle .parragraph {
+    
     display: flex;
     flex-wrap: wrap;
     height: 80px;
 }
+
+
 
 #body{
     background-size: cover;
