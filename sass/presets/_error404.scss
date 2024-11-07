@@ -1,0 +1,54 @@
+/*ERROR404*/
+
+
+
+
+
+
+.text-404{
+    // border: red solid 5px;
+    height: 400px;
+    width: 400px;
+
+    .parragraph-404{
+        font-size: 40px;
+        text-align: center;
+    }
+
+}
+
+
+
+
+@keyframes efecto{
+    0%{
+        transform: translate(0px ,0px);
+    }
+    25%{
+        transform: translate(0px ,-30px);
+    }
+    50%{
+        transform: translate(0px ,15px);
+    }
+    75%{
+        transform: translate(0px ,-15px);
+    }
+    100%{
+        transform: translate(0px ,0px);
+    }
+
+}
+
+
+
+.auspex{
+
+    animation-name: efecto;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 5s;
+}
+
+
+
+/*-------------*/
