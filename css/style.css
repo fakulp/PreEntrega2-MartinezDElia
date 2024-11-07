@@ -91,7 +91,7 @@
   }
 }
 .heretics:hover {
-  animation: rotate;
+  animation-name: rotate;
   animation-iteration-count: infinite;
   animation-timing-function: ease-in-out;
   animation-duration: 0.5s;
@@ -104,5 +104,40 @@
 }
 
 /*--------------*/
+/*ERROR404*/
+.text-404 {
+  height: 400px;
+  width: 400px;
+}
+.text-404 .parragraph-404 {
+  font-size: 40px;
+  text-align: center;
+}
+
+@keyframes efecto {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(0px, -30px);
+  }
+  50% {
+    transform: translate(0px, 15px);
+  }
+  75% {
+    transform: translate(0px, -15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.auspex {
+  animation-name: efecto;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+}
+
+/*-------------*/
 
 /*# sourceMappingURL=style.css.map */
