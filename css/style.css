@@ -20,11 +20,6 @@
   background-size: cover;
   background-position: center;
   background-image: url(../images/Background.jpg);
-
-}
-
-#main {
-  height: 80vh;
 }
 
 #section-content {
@@ -38,7 +33,6 @@
 /*-------------*/
 /*index*/
 .card-new:hover {
-
   margin-top: 10px;
 }
 .card-new:hover .card-body-index:hover {
@@ -71,6 +65,13 @@
 
 /*--------------*/
 /*facciones*/
+#body-facciones {
+  height: 200vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/Background.jpg);
+}
+
 .cardsFacciones:hover {
   border: 2px solid orangered;
   border-radius: 5%;
