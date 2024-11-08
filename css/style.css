@@ -20,6 +20,7 @@
   background-size: cover;
   background-position: center;
   background-image: url(../images/Background.jpg);
+
 }
 
 #main {
@@ -37,6 +38,7 @@
 /*-------------*/
 /*index*/
 .card-new:hover {
+
   margin-top: 10px;
 }
 .card-new:hover .card-body-index:hover {
