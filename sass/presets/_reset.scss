@@ -20,14 +20,12 @@
 
 
 #body{
+    
     background-size: cover;
     background-position: center;
-    background-image: url(../images/Background.jpg);
+    background-image:  url(../images/Background.jpg) ;
 }
 
-#main{
-    height: 80vh;
-}
 
 #section-content{
     gap: 5px;

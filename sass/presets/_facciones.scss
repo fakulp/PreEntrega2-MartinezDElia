@@ -1,5 +1,10 @@
 /*facciones*/
-
+#body-facciones{
+    height: 200vh;
+    background-size: cover;
+    background-position: center;
+    background-image: url(../images/Background.jpg);
+}
 
 .cardsFacciones:hover{
     border: 2px solid orangered;
