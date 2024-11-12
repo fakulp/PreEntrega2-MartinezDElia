@@ -5,6 +5,15 @@
   list-style: none;
   text-decoration: none;
   color: rgb(242, 179, 43);
+  font-family: "MedievalSharp", cursive;
+  font-size: 18px;
+}
+
+/*header*/
+#header .tittle .parragraph {
+  display: flex;
+  flex-wrap: wrap;
+  height: 80px;
 }
 
 #body {
@@ -13,61 +22,35 @@
   background-image: url(../images/Background.jpg);
 }
 
-.navbar-toggler-icon {
-  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 231, 165, 21.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
-}
-
-#header .tittle .parragraph {
-  display: flex;
-  flex-wrap: wrap;
-  height: 80px;
-}
-
-#main {
-  height: 80vh;
-}
-
 #section-content {
   gap: 5px;
 }
 
-.modalBackground {
-  background-color: rgba(0, 0, 0, 0.719);
+#footer ul li a {
+  color: rgb(242, 179, 43);
 }
 
-.card-new {
+/*-------------*/
+/*index*/
+.card-new:hover {
   margin-top: 10px;
 }
-
-.card-body-facciones {
-  height: 200px;
-  width: 200px;
-}
-
-.cardsFacciones:hover {
+.card-new:hover .card-body-index:hover {
   border: 2px solid orangered;
   border-radius: 5%;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  margin-right: 10px;
+  transform: translate(0px, -10px);
   box-shadow: 15px 15px rgba(0, 0, 0, 0.719);
   transition: 1s;
-  background-color: rgba(0, 0, 0, 0.603);
+  background-color: rgba(0, 0, 0, 0.836);
 }
-
-.card-body-index:hover {
-  border: 2px solid orangered;
-  border-radius: 5%;
-  margin-top: 5px;
-  margin-bottom: 20px;
-  margin-right: 10px;
-  box-shadow: 15px 15px rgba(0, 0, 0, 0.719);
-  transition: 1s;
-  background-color: rgba(0, 0, 0, 0.603);
-}
-
-.card-title {
+.card-new:hover .card-body-index:hover .card-title {
   color: rgb(231, 165, 21);
+}
+
+/*----------*/
+/*navbar*/
+.navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 231, 165, 21.75%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
 }
 
 .navbar-brand {
@@ -80,8 +63,84 @@
   margin-right: 25px;
 }
 
-#footer ul li a {
-  color: rgb(242, 179, 43);
+/*--------------*/
+/*facciones*/
+#body-facciones {
+  height: 200vh;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../images/Background.jpg);
 }
+
+.cardsFacciones:hover {
+  border: 2px solid orangered;
+  border-radius: 5%;
+  transform: translate(0px, -10px);
+  box-shadow: 15px 15px rgba(0, 0, 0, 0.719);
+  transition: 1s;
+  background-color: rgba(0, 0, 0, 0.836);
+}
+
+.card-title {
+  color: rgb(231, 165, 21);
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.heretics:hover {
+  animation-name: rotate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-duration: 0.5s;
+}
+
+/*---------------*/
+/*contacto*/
+.modalBackground {
+  background-color: rgba(0, 0, 0, 0.719);
+}
+
+/*--------------*/
+/*ERROR404*/
+.text-404 {
+  height: 400px;
+  width: 400px;
+}
+.text-404 .parragraph-404 {
+  font-size: 40px;
+  text-align: center;
+}
+
+@keyframes efecto {
+  0% {
+    transform: translate(0px, 0px);
+  }
+  25% {
+    transform: translate(0px, -30px);
+  }
+  50% {
+    transform: translate(0px, 15px);
+  }
+  75% {
+    transform: translate(0px, -15px);
+  }
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+.auspex {
+  animation-name: efecto;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 5s;
+}
+
+/*-------------*/
 
 /*# sourceMappingURL=style.css.map */

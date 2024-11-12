@@ -1,0 +1,10 @@
+@mixin sombreado-cartas{
+    border: 2px solid orangered;
+    border-radius: 5%;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    margin-right: 10px;
+    box-shadow: 15px 15px rgba(0, 0, 0, 0.719);
+    transition: 1s;
+    background-color: rgba(0, 0, 0, 0.603);
+}
